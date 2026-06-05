@@ -17916,7 +17916,7 @@ span.select2-selection.select2-selection--single:focus{
     -webkit-transition:all 1s cubic-bezier(0, 0, 0.2, 1);
     transition:all 1s cubic-bezier(0, 0, 0.2, 1);
     border-radius:50%;
-    background:hsla(0,0%,100%,.2);
+    background:#f08323;
     margin:0 auto;
     display:inline-block;
     font-size:40px;
@@ -24215,4 +24215,26 @@ span.select2-selection.select2-selection--single:focus{
     visibility: visible !important;
     transform: translateY(0) !important;
     bottom: 0 !important;
+}
+.box-icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    background: #f5f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .box-icon {
+    transform: translateY(-5px);
+}
+
+.box-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
