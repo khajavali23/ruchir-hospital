@@ -6333,8 +6333,10 @@ ul.widget_recent_comments,ol.widget_recent_comments,.wp-block-latest-comments{
 }
 @media(max-width: 1299px){
     .header-layout1 .th-btn{
-        padding:15px 16px
+        padding:15px 16px;
+
     }
+    
 }
 .header-layout1 .th-btn:not(:last-child){
     margin-right:10px
@@ -24238,3 +24240,16 @@ span.select2-selection.select2-selection--single:focus{
     height: 50px;
     object-fit: contain;
 }
+@media (max-width: 991px) {
+    .header-button .th-btn {
+        display: none;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+    .emergency-btn {
+        display: none;
+    }
+}
+
+
