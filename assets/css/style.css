@@ -5789,7 +5789,7 @@ ul.widget_recent_comments,ol.widget_recent_comments,.wp-block-latest-comments{
     color:var(--theme-color)
 }
 .main-menu>ul>li{
-    margin:0 14px
+    margin:0 9px
 }
 .main-menu>ul>li>a{
     padding:33px 0
@@ -6329,7 +6329,7 @@ ul.widget_recent_comments,ol.widget_recent_comments,.wp-block-latest-comments{
     color:var(--theme-color)
 }
 .header-layout1 .th-btn{
-    padding:15.2px 24px
+        padding: 15.2px 17px;
 }
 @media(max-width: 1299px){
     .header-layout1 .th-btn{
@@ -6338,6 +6338,7 @@ ul.widget_recent_comments,ol.widget_recent_comments,.wp-block-latest-comments{
     }
     
 }
+
 .header-layout1 .th-btn:not(:last-child){
     margin-right:10px
 }
