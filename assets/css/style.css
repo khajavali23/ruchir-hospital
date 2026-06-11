@@ -22311,7 +22311,7 @@ span.select2-selection.select2-selection--single:focus{
     z-index:-1
 }
 .feature-card{
-    background-color:#fff2f2;
+    background-color:#0c02021c;
     border-radius:16px;
     padding:40px
 }
@@ -22321,10 +22321,10 @@ span.select2-selection.select2-selection--single:focus{
     }
 }
 .feature-card_wrapp:nth-child(2) .feature-card{
-    background-color:#ebf5de
+    background-color:#00598d26
 }
 .feature-card_wrapp:nth-child(3) .feature-card{
-    background-color:#fdf4dd
+    background-color:#ef822321
 }
 .feature-card .box-icon{
     margin-bottom:30px
