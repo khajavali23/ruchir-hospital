@@ -6280,7 +6280,7 @@ ul.widget_recent_comments,ol.widget_recent_comments,.wp-block-latest-comments{
     }
 }
 .header-layout1 .menu-area{
-    margin:32px 0px 0 0px;
+   
     padding:0px 35px 0px 35px;
     border-radius:16px;
     background-color:var(--white-color)
@@ -24257,3 +24257,7 @@ span.select2-selection.select2-selection--single:focus{
     margin-left: 0px !important;
 }
 
+
+.menu-area-style1{
+ margin:32px 0px 0 0px !important;
+}
