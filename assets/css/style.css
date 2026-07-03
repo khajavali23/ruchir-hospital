@@ -555,7 +555,7 @@ ul.wp-block-rss a{
     padding-top:1em
 }
 .ru-active{
-    color: #F96363 !important;
+    color: #ef8223 !important;
 }
 .page-links>.page-links-title{
     margin-right:10px
@@ -5778,7 +5778,7 @@ ul.widget_recent_comments,ol.widget_recent_comments,.wp-block-latest-comments{
     display:block;
     position:relative;
     font-family:var(--body-font);
-    font-weight:500;
+    font-weight:600;
     font-size:16px;
     line-height:28px;
     letter-spacing:.02em;
@@ -19764,10 +19764,7 @@ span.select2-selection.select2-selection--single:focus{
     -webkit-transition:.4s ease-in-out;
     transition:.4s ease-in-out
 }
-.service-card .box-icon img{
-    -webkit-transition:.4s ease-in-out;
-    transition:.4s ease-in-out
-}
+
 .service-card .box-title{
     margin-bottom:10px
 }
@@ -24232,9 +24229,7 @@ span.select2-selection.select2-selection--single:focus{
     transition: all 0.3s ease;
 }
 
-.service-card:hover .box-icon {
-    transform: translateY(-5px);
-}
+
 
 .box-icon img {
     width: 50px;
