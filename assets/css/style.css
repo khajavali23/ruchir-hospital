@@ -14912,11 +14912,9 @@ span.select2-selection.select2-selection--single:focus{
     margin-right:0;
     margin-bottom:10px
 }
-.team-card:hover .box-img img{
-    -webkit-transform:scale(1.15);
-    transform:scale(1.15);
-    -webkit-transition:all ease .4s;
-    transition:all ease .4s
+.team-card:hover .box-img img {
+    transform: scale(1.03);
+    transition: transform 0.4s ease;
 }
 .team-card:hover .box-content{
     background-color:#fff2f2
